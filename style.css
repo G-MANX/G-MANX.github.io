@@ -3,7 +3,7 @@ body{
 	font-family: "Arial Black", Gadget, sans-serif;
 }
 header {
-	background-color: #330038;
+	background-color: #a31010;
 	padding: 8px;
 	border-radius: 8px;
 	position: fixed;
@@ -44,7 +44,7 @@ ul {
 }
 
 footer {
-	background-color: #330038;
+	background-color: #000000;
 	border-radius: 10px;
 	position: fixed;
 	bottom: 0;
@@ -65,7 +65,7 @@ img {
 	grid-column: 3/4;
 	z-index: 1;
 	width: 350px;
-	box-shadow: 10px 10px 20px #000000;
+	box-shadow: 10px 10px 20px #140f0f;
 }
 
 #byuLink {
@@ -81,7 +81,7 @@ img {
 }
 
 .lastModified {
-	color: yellowgreen;
+	color: rgb(205, 50, 58);
 	justify-content: center;
 	font-size: 11px;
 	display: flex;
