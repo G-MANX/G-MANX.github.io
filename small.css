@@ -1,10 +1,10 @@
 body{
   background-color: white;
-	font-family: "Arial Black", Gadget, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 header {
 	background-color: #a31010;
-	padding: 60px;
+	padding: 8px;
 	border-radius: 8px;
 	position: fixed;
 	top: 0;
@@ -13,7 +13,7 @@ header {
 }
 
 h1 {
-	font-size: 2.5em;
+	font-size: 1.5em;
 	text-align: center;
 	color: #ffffff;
 }
@@ -25,7 +25,7 @@ h1 {
 }
 
 h2 {
-	font-size: 2em;
+	font-size: 1.5em;
 	text-align: left;
 	border-bottom: 5px double;
 	grid-row: 3/4;
@@ -45,7 +45,6 @@ ul {
 
 footer {
 	background-color: #000000;
-	border-radius: 10px;
 	position: fixed;
 	bottom: 0;
 	left: 0;
@@ -63,8 +62,6 @@ footer {
 img {
 	grid-row: 2/4;
 	grid-column: 3/4;
-	right: 16px;
-	float: right;
 	z-index: 1;
 	width: 350px;
 	box-shadow: 10px 10px 20px #140f0f;
