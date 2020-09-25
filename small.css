@@ -4,7 +4,7 @@ body{
 }
 header {
 	background-color: #a31010;
-	padding: 8px;
+	padding: 60px;
 	border-radius: 8px;
 	position: fixed;
 	top: 0;
@@ -63,6 +63,8 @@ footer {
 img {
 	grid-row: 2/4;
 	grid-column: 3/4;
+	right: 16px;
+	float: right;
 	z-index: 1;
 	width: 350px;
 	box-shadow: 10px 10px 20px #140f0f;
