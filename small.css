@@ -25,12 +25,10 @@ h1 {
 }
 
 h2 {
-	font-size: 1.5em;
+	font-size: 30px;
 	text-align: left;
 	border-bottom: 5px double;
-	grid-row: 3/4;
-	grid-column: 1/3;
-	margin: 0;
+	margin-top:  100px;
 	padding: 0;
 	height: 50px;
 }
@@ -64,7 +62,8 @@ img {
 	grid-row: 2/4;
 	grid-column: 3/4;
 	z-index: 1;
-	width: 100px;
+	width: 150px;
+	float: right;
 	box-shadow: 10px 10px 20px #140f0f;
 }
 
