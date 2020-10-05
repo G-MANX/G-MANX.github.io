@@ -40,7 +40,7 @@ body{
 
      nav li {
          display: inline-block;
-         margin-left: 70px;
+         margin-left: 50px;
          position: relative;
 
       }
@@ -65,6 +65,92 @@ body{
          background-color: darkgoldenrod;
          position: absolute;
          top: 0%;
-         width: 75px;
+         width: 50px;
 
+      }
+
+      table, th, td{
+        border: 1px solid #bc4123;
+        margin-top:25px;
+        text-align:center;
+        padding:10px;
+        margin:0 auto;
+      }
+      
+      #white{
+        background-color:#FAFAFA;
+        border-top:1px solid #bc4123;
+        margin-top:20px;
+      }
+      #lightBlue{
+        background-color:#1e56a0;
+      }
+      #blue{
+        background-color:#163172;
+        color:#FAFAFA;
+      }
+      #black{
+        background-color:#1D242B;
+        border-bottom:1px solid #bc4123;
+        margin-bottom: 25px;
+      }
+      #white, #lightBlue{
+          color:black;
+      }
+      #white, #lightBlue, #blue, #black{
+          border-right: 1px solid #bc4123;
+          border-left: 1px solid #bc4123;
+          text-align: center;
+          padding:20px;
+      }
+      tbody{
+        align-content: center;
+      }
+      #tableBody, #tParagraph, #tHeader, #tFooter, #tHeader2{
+          font-weight: bold;
+          color:#1D242B;
+      }
+      #tableBody, #tParagraph{
+        background-color:#FAFAFA;
+      }
+      #tHeader, #tFooter{
+        background-color:#1e56a0;
+        color:#FAFAFA;
+        }
+      #tHeader2{
+        background-color:#163172;
+        }
+      /* Typography Page */
+      
+      #fontHeader, #fontH1{
+        font-family: 'Vollkorn SC', serif;
+        font-size: 60px;
+      }
+      #fontH2{
+        font-family: 'Lora', serif;
+        font-size: 60px;
+      }
+      #fontParagraph{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 22px;
+      }
+      #fontFooter{
+        font-family: "Times New Roman", Times, serif;
+        font-size: 18px;
+      }
+      
+      /* Target Audience Page*/
+      ul.personaUl, ul.scenerioUl{
+        display:block;
+        list-style-type:block;
+      }
+      li.personaLi, li.scenerioLi{
+        width:auto;
+        text-align:auto;
+      }
+      #persona1 {
+        margin-bottom:25px;
+      }
+      li.personaLi:hover{
+        background-color: #203047;
       }
