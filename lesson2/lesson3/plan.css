@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: rgb(144, 114, 168);
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
   }
@@ -9,9 +9,10 @@ body{
         margin: 0%;
  }
   header {
-      background-color: burlywood;
-      padding: 8px;
-      border-radius: 8px;
+      text-align: center;
+      background-color: rgba(73, 0, 245, 0.39);
+      padding: 10px;
+      border-radius: 1px;
       position: fixed;
       top: 0;
       left: 0;
@@ -40,13 +41,13 @@ body{
 
      nav li {
          display: inline-block;
-         margin-left: 50px;
+         margin-left: 15px;
          position: relative;
 
       }
 
-     na a {
-         color: black;
+     nav a {
+         color: rgb(150, 44, 44);
          text-decoration: none;
          text-transform: uppercase;
          font-size: 14px;
@@ -65,92 +66,138 @@ body{
          background-color: darkgoldenrod;
          position: absolute;
          top: 0%;
-         width: 50px;
-
+         width: 30px;
+        /* color scheme page */
       }
-
+     h1 header {
+              text-align: left;
+      }
       table, th, td{
-        border: 1px solid #bc4123;
+        border: 1px solid #13bde7;
         margin-top:25px;
         text-align:center;
         padding:10px;
-        margin:0 auto;
+        margin:0% auto;
       }
       
-      #white{
-        background-color:#FAFAFA;
-        border-top:1px solid #bc4123;
+      #Green{
+        background-color:#2bbae6;
+        border-top:1px solid #9454dd;
         margin-top:20px;
       }
+      #Red{
+        background-color:#521616;
+      }
       #lightBlue{
-        background-color:#1e56a0;
+        background-color:#1a58eb;
+        color:#84ec2e;
       }
-      #blue{
-        background-color:#163172;
-        color:#FAFAFA;
-      }
-      #black{
-        background-color:#1D242B;
-        border-bottom:1px solid #bc4123;
+      #Yellow{
+        background-color:#8b1f86;
+        border-bottom:1px solid #941b76;
         margin-bottom: 25px;
       }
-      #white, #lightBlue{
-          color:black;
+      #Red, #lightBlue{
+          color:rgb(196, 121, 121);
       }
-      #white, #lightBlue, #blue, #black{
-          border-right: 1px solid #bc4123;
-          border-left: 1px solid #bc4123;
+      #Green, #lightBlue, #Red, #Yellow{
+          border-right: 1px solid #cf2984;
+          border-left: 1px solid #cf2984;
           text-align: center;
           padding:20px;
       }
       tbody{
         align-content: center;
+
       }
-      #tableBody, #tParagraph, #tHeader, #tFooter, #tHeader2{
+      #tableBody, #tParagraph, #tHeader, #tFooter, #tNavigation{
           font-weight: bold;
-          color:#1D242B;
+          color:#1b3a58;
       }
-      #tableBody, #tParagraph{
-        background-color:#FAFAFA;
+      #tableBorders, #tParagraph{
+        background-color:#be5e5e;
       }
-      #tHeader, #tFooter{
-        background-color:#1e56a0;
+      #backdgound, #tFooter{
+        background-color:#df350b;
         color:#FAFAFA;
         }
-      #tHeader2{
-        background-color:#163172;
+      #tNavgation{
+        background-color:red;
         }
       /* Typography Page */
       
       #fontHeader, #fontH1{
-        font-family: 'Vollkorn SC', serif;
-        font-size: 60px;
+        font-family: " Avenir next" sans-serif;
+        font-size: 30px;
       }
       #fontH2{
-        font-family: 'Lora', serif;
-        font-size: 60px;
+        font-family: 'Bodoni oldstyle', serif;
+        font-size: 30px;
       }
       #fontParagraph{
-        font-family: "Times New Roman", Times, serif;
+        font-family: "Helvetica Neuve", serif;
         font-size: 22px;
       }
       #fontFooter{
-        font-family: "Times New Roman", Times, serif;
+        font-family: "Helvetica Neue", Times, serif;
         font-size: 18px;
       }
       
       /* Target Audience Page*/
-      ul.personaUl, ul.scenerioUl{
+      table th td{
         display:block;
         list-style-type:block;
       }
-      li.personaLi, li.scenerioLi{
-        width:auto;
+       #persona1{
+           display: block;
+           width:auto;
         text-align:auto;
+
       }
-      #persona1 {
-        margin-bottom:25px;
+        
+      #persona2{
+        margin-bottom:20px;
       }
-      li.personaLi:hover{
+      li.personaL1:hover{
         background-color: #203047;
       }
+
+      footer {
+        background-color: #000000;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
+        left: 0;
+        width: 100%;
+        color: #ffffff;
+        padding: 10px;
+    }
+    
+    .footerInfo {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    
+    #byuLink {
+        align-self: center;
+        color: white;
+        padding-left: 4px;
+    }
+    
+    #year {
+        color: white;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    
+    .lastModified {
+        color: rgb(205, 50, 58);
+        justify-content: center;
+        font-size: 11px;
+        display: flex;
+    
+    }
+
+
