@@ -93,10 +93,10 @@ nav>ul {
 }
 
 footer {
-    background-color: #14213d;
+    background-color: #030405;
     color: white;
     text-align: center;
-    padding: 40px;
-    font-family: 'Noto Serif', serif;
+    padding: 30px;
+    font-family: 'Avenir next', sans-serif;
     font-size: 15px;
 }
