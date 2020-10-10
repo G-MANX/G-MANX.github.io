@@ -53,7 +53,7 @@ nav>ul {
     text-decoration: none;
     color: white;
     font-weight: 500;
-    font-family: 'Bodoni oldstyle', sans-serif;
+    font-family: 'Adamina', serif;
     padding: 20px;
 }
 
@@ -74,7 +74,7 @@ nav>ul {
 
 .sitehd, .motto {
     color: white;
-    font-family: 'helvetica neue', sans-serif;
+    font-family: 'Noto Serif SC' serif;
 }
 
 .menu {
@@ -83,7 +83,7 @@ nav>ul {
 
 .placeholderbox {
     text-align: left;
-    font-family: 'Avenir next',sans-serif;
+    font-family: 'Noto Serif TC', serif;
     padding: 10px;
     margin: 0 auto;
     background-color: #4fb66e;
