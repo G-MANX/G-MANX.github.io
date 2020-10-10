@@ -1,4 +1,4 @@
-// day names array
+
 var dayNames = [
     "Sunday",
     "Monday",
@@ -8,8 +8,6 @@ var dayNames = [
     "Friday",
     "Saturday"
 ];
-
-// long month names array
 const months = [
     "January",
     "February",
