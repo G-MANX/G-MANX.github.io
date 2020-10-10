@@ -53,13 +53,13 @@ nav>ul {
     text-decoration: none;
     color: white;
     font-weight: 500;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Bodoni oldstyle', sans-serif;
     padding: 20px;
 }
 
 .navigation a:hover {
-    color: rgba(110, 94, 94, 0.815);
-    background-color: #338dce00;
+    color: rgba(204, 104, 104, 0.815);
+    background-color: #0aa89800;
 }
 
 .responsive li {
@@ -87,7 +87,7 @@ nav>ul {
     padding: 10px;
     margin: 0 auto;
     background-color: #9EC8E5;
-    border: #585858 dotted 2px;
+    border: #8a9668 dotted 2px;
     color: black;
     margin-bottom: 15px;
 }
