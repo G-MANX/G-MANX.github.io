@@ -86,7 +86,7 @@ nav>ul {
     font-family: 'Avenir next',sans-serif;
     padding: 10px;
     margin: 0 auto;
-    background-color: #9EC8E5;
+    background-color: #4fb66e;
     border: #8a9668 dotted 2px;
     color: black;
     margin-bottom: 15px;
@@ -95,7 +95,7 @@ nav>ul {
 footer {
     background-color: #030405;
     color: white;
-    text-align: center;
+    text-align:center;
     padding: 30px;
     font-family: 'Avenir next', sans-serif;
     font-size: 15px;
