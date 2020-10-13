@@ -38,7 +38,7 @@ nav ul {
     padding: 0;
 }
 
-.navigation li:first-child {
+.navBar li:first-child {
     display: block;
 }
 
