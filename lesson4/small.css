@@ -21,6 +21,21 @@ header {
     height: 100px;
 }
 
+h1{
+    font-family: 'Adamani', serif;
+    font-size: 200%;
+    color: #FAFAFA;
+    grid-column:2/3;
+    grid-row:1/2;
+   
+}
+h2{
+    font-family: 'Noto', serif;
+    font-size: 200%;
+    color:#FAFAFA;
+    background-color: #030405;
+}
+
 nav {
     margin: 0 auto;
     max-width: 100%;
@@ -29,7 +44,7 @@ nav {
     padding: 0;
 }
 
-nav>ul {
+nav  ul {
     margin-top: 1.5px;
 }
 
@@ -72,16 +87,20 @@ nav>ul {
     grid-template-columns: 500px 500px;
 }
 
-.sitehd, .motto {
+.heading, .motto {
     color: white;
-    font-family: 'Noto Serif SC' serif;
+    font-size:140%;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: end;
+    margin-bottom: 5px;
 }
 
 .menu {
     font-size: 20px;
 }
 
-.placeholderbox {
+.placeholder{
     text-align: left;
     font-family: 'Noto Serif TC', serif;
     padding: 10px;
