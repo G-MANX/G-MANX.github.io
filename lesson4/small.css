@@ -7,14 +7,18 @@ body {
 
 header {
     max-width: 100%;
-    background-color: #533970;
     display: flex;
+    justify-content: space-evenly;
+    background-color: #533970;
     align-content: center;
     justify-content: center;
     margin: 0 auto;
     padding: 10px;
 }
-
+  .byline{ 
+      text-align: center;
+      line-height: 1.5em;
+}
 .image {
     padding: 5px 10px 5px 0;
     max-width: 100%;
@@ -23,7 +27,7 @@ header {
 
 h1{
     font-family: 'Adamani', serif;
-    font-size: 200%;
+    font-size: 60px;
     color: #FAFAFA;
     grid-column:2/3;
     grid-row:1/2;
@@ -89,7 +93,6 @@ nav  ul {
 
 .heading, .motto {
     color: white;
-    font-size:140%;
     grid-column: 2/3;
     grid-row: 1/2;
     align-self: end;
