@@ -3,6 +3,19 @@ body {
     padding: 0;
     margin: 0;
 }
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block; 
+    flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+}
 
 
 header {
@@ -28,7 +41,7 @@ header {
 h1{
     font-family: 'Adamani', serif;
     font-size: 60px;
-    color: #FAFAFA;
+    color:white;
     grid-column:2/3;
     grid-row:1/2;
    
@@ -83,7 +96,7 @@ nav  ul {
 
 .responsive li {
     display: block;
-}
+} 
 
 .beforefoot {
     display: grid;
@@ -103,16 +116,45 @@ nav  ul {
     font-size: 20px;
 }
 
-.placeholder{
+.weathersummary {
+    display: flex;
+    top: 25px;
+    left: 25px;
+    bottom: 25px;
+    padding: .5rem;
+    color: #5658c5;
+    font-weight: bold;
+    font-family: Adamani, sans-serif;
+  }
+
+.summary p {
     text-align: left;
-    font-family: 'Noto Serif TC', serif;
-    padding: 10px;
-    margin: 0 auto;
-    background-color: #4fb66e;
-    border: #8a9668 dotted 2px;
-    color: black;
-    margin-bottom: 15px;
 }
+
+.forecast {
+    display: none;
+}
+
+
+
+
+table{
+    width: fit-content;
+    
+}
+
+th,td{
+    padding: 7px 10px 10px 10px;
+
+}
+
+ th{
+     text-transform: none;
+     letter-spacing: 0.1em;
+
+}
+
+
 
 footer {
     background-color: #030405;
@@ -122,3 +164,5 @@ footer {
     font-family: 'Avenir next', sans-serif;
     font-size: 15px;
 }
+
+
