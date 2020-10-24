@@ -138,11 +138,28 @@ nav  ul {
     justify-self: start;
     z-index: 20;
 }
-.weatherimg {
-    grid-column: 1;
-    grid-row: 1/2;
-    z-index: 10;
+
+.summary P{
+    font-family: 'Adamina', serif;
+    font-size: 20px;
 }
+
+
+
+
+.heroDiv {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#heroimg {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+
 
 
 .summary p {
@@ -224,11 +241,12 @@ h2 {
     padding: 10px 10px 20px 10px;
 }
 
-p{
+.p{
     color: black;
 }
 
-.socialmedia{
+.socialmedia >div{
+    background-color: #96adad;
     display: flex;
     background-color: rgb(248, 248, 248);
     grid-column-start: 2;
@@ -246,8 +264,8 @@ p{
     box-shadow: 5px 5px 7px #9a8edd;
 }
 
-.info div{
-
+.info >div{
+    display:flex;
 
 }
 
@@ -255,7 +273,17 @@ p{
     margin-right: 65px;
 }
 
+.facebookicon{
+    margin:0 auto;
+    margin-right:0;
+}
+  
 
+.twittericon{
+    margin:0 auto;
+    margin-left:0;
+
+}
 
 footer {
     background-color: #030405;
