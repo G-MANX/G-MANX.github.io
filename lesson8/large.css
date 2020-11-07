@@ -32,3 +32,20 @@
 .container:hover {
    box-shadow: 3px 3px 3px 3px #0b75a7;
 }
+textarea{
+  
+    width:150px;
+    height:100px;
+}
+
+form legend {
+    color: none;
+  
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 20px;;
+    font-size: 13px;
+}

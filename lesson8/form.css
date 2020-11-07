@@ -125,28 +125,60 @@ nav  ul {
     background-color: rgb(25, 103, 134);
 }
 
-.mainContainer {
-    display: grid;
+/*---------form-------*/
+
+form legend {
+    color: none;
+  
+}
+
+form label.top,
+form div {
+    display: block;
+    padding-top: 20px;
+    color: #bd3eb2;
+    font-size: 13px;
+  
+
+}
+#submit{
+    width:90px;
+}
+textarea{
+    background-color: rgb(249, 252, 253);
+    width:150px;
+    height:100px;
+}
+label{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#storm{
+    display:none;
+}
+.main{
+    text-align:center;
+}
+
+form label.top input::placeholder{
+    border: #91235a solid 3px;
+  }
+#notation{
+    font-size:10px;
+}
+
+#thankyou{
+    text-align:center;
+    color:  #edf0f3;
+    text-shadow:none;
+}
+
     
-    grid-template-columns: 1fr 1fr 1fr;
-   
-    
-}
+  
+    form{
+        padding-right: 40%;
+    }
 
-.container{
-    display: left;
-}
-
-
-.container[data-src]{
-    filter: blur(0.2em);
-    
-}
-
-.container figcaption img {
-    filter: blur(0em);
-    transition: filter 1s;
-}
 .item3 img {
     width: 80%;
     height: auto;
@@ -214,7 +246,6 @@ footer {
     font-family: 'Avenir next', sans-serif;
     font-size: 15px;
 }
-
 
 
 
