@@ -134,6 +134,7 @@ form legend {
 
 form label.top,
 form div {
+    background-color: khaki;
     display: block;
     padding-top: 20px;
     color: #bd3eb2;
