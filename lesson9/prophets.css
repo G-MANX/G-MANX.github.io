@@ -1,0 +1,54 @@
+@media only screen and (min-width: 32.5em) {
+    div.cards {
+      grid-template-columns: 1fr 1fr;
+      max-width: 30rem;
+    }
+  }
+  
+  @media only screen and (min-width: 60em) {
+    div.cards {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      max-width: 60rem;
+    }
+}
+  body{
+      background-color: rgba(61, 139, 190, 0.158);
+  }
+  main img{
+    box-shadow: 10px 10px 60px 0px rgba(134, 71, 71, 0.75);
+    width: 60%;
+    height: auto;
+    margin-top: .5rem;
+    
+  }
+
+
+ div.cards {
+    display: grid;
+    gap: 0.25rem;
+    margin: 0 auto;
+    max-width: 80%;
+    padding: 10px 10px;
+  }
+  section {
+    background-color: #390dda7a;
+    border: 1px solid #25492b;
+    padding: 1em;
+    margin: .25em;
+    text-align: center;
+}
+    
+      
+  
+  h2 {
+    margin: -3px 0 0 0;
+}
+
+h1, h2, p {
+    text-align: center;
+    color: #24585f;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+}
