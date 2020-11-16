@@ -273,20 +273,21 @@ h2 {
   }
   
   .cards {
-    color: #f72c083d;
+    color: black;
     font-size: .9em;
-    font-weight: bold;
+    font-weight: bolder;
     margin: auto 0;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1.5em;
+    grid-gap: 2.5em;
   }
   .cards section {
-    background-color: #f9fafa;
+    background-color: #69bcf3ec;
     text-align: center;
     padding: 1em;
     margin: auto;
     font-weight: bold;
+    padding: 10px;
   }
   .cards p:nth-child(2){
     font-family: Raleway, sans-serif;
