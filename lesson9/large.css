@@ -1,0 +1,23 @@
+@media only screen and (min-width: 60em) {
+
+    main, footer {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    .heading, .motto  {
+    font-size: 20px;
+}
+
+}
+
+.weathersummary p{
+        font-family: 'Adamani',serif;
+        margin: 0;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+        margin-right: 5px;
+        margin-left: 5px;  
+        padding: 10px 10px;
+}
