@@ -132,37 +132,17 @@ nav  ul {
     margin-left: 20px;
     margin-top: 15px;
     border-radius: 10px;
-    text-align: left;
+    text-align: right;
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
     z-index: 20;
 }
-
-.summary P{
-    font-family: 'Adamina', serif;
-    font-size: 20px;
-}
-.hero {
+.weatherimg {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 1/2;
+    z-index: 10;
 }
-#heroImg {
-    width: 200%;
-}
-
-
-
-
-/*#heroimg {
-    width: 50px;
-    height: auto;
-    margin-top: 10px;
-    border-radius: 10px;
-    grid-column: 1;
-    
-} */
-
 
 
 .summary p {
@@ -219,6 +199,75 @@ h2 {
     width: 80%;
     height: auto;
     border-radius: 10px;
+}
+
+
+
+.dv-item3  {
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #32659400;
+}
+
+.item3 .info{
+      text-align: right;
+}
+
+
+.container {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    background-color: #96adad;
+    margin: 20px -10px;
+    padding: 10px 10px 20px 10px;
+}
+
+p{
+    color: black;
+}
+
+.socialmedia{
+    display: flex;
+    background-color: rgb(248, 248, 248);
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    margin: 0 5px 0 0;
+    text-align: right;
+    
+}
+
+
+.map img {
+    width: 80%;
+    box-shadow: 5px 5px 7px #9a8edd;
+}
+
+
+
+.icons {
+    margin-right: 65px;
+}
+.item1 {
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #22ceec;
+    padding-top: 10px;
+    display: center;
+}
+
+.item2 p {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.item3 img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
     z-index: 20;
 }
 .info img {
@@ -251,6 +300,7 @@ h2 {
     margin: 20px -10px;
     padding: 10px 10px 20px 10px;
     z-index: 0;
+    display: block;
     
 }
 
@@ -273,7 +323,6 @@ h2 {
     width: 80%;
     box-shadow: 5px 5px 7px #9a8edd;
 }
-
 footer {
     background-color: #030405;
     color: white;

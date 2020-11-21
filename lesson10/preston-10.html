@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preston Idaho</title>
     <link href="https://fonts.googleapis.com/css2?family=Adamina&family=Noto+Serif+SC:wght@200&family=Noto+Serif+TC:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/lesson5/small.css">
+    <link rel="stylesheet" href="/lesson10/small.css">
     <link rel="stylesheet" href="/lesson5/medium.css"> 
     <link rel="stylesheet" href="/lesson5/large.css"> 
 </head>
@@ -25,12 +25,12 @@
     <nav>
         <ul class="navigation">
                     <li><a class="menu" href="#">&#9776; Menu</a></li> 
-                    <li><a href="#">Home</a></li>
-                    <li><a class="active" href="#">Preston</a></li>
+                    <li><a href="/lesson9/index.html">Home</a></li>
+                    <li><a class="active" href="/lesson6/preston-6.html">Preston</a></li>
                     <li><a href="#">Soda Spring</a></li>
                     <li><a href="#">Fish Haven</a></li>
-                    <li><a href="#">Storm Center</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="/lesson8/stormcenter.html">Storm Center</a></li>
+                    <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
                 </ul>
     </div>
 
@@ -56,8 +56,27 @@
             <div class="item1">
             <div class="dayforecast">
                 <h3> 5 Day forecast</h3>
-                <img src="/lesson5/5 DAY FORECAST.jpg" alt="five day forecast"width="600"height="300">
-                  </div>
+                
+            </div>
+                
+            <table>
+                <tr>
+                    <th><span id="1day">key</span></th>
+                    <th><span id="2day">key</span></th>
+                    <th><span id="3day">key</span></th>
+                    <th><span id="4day">key</span></th>
+                    <th><span id="5day">key</span></th>
+                </tr>
+                <tr>
+                    <td class="tabledata"><img class="myImg" id="0Img" src="/lesson10/forecast.png" alt="weather forecast"><span id="0Cast">key</span>&#176;F</td>
+                    <td class="tabledata"><img class="myImg" id="1Img" src="/lesson10/forecast.png" alt="weather forecast"><span id="1Cast">key</span>&#176;F</td>
+                    <td class="tabledata"><img class="myImg" id="2Img" src="/lesson10/forecast.png" alt="weather forecast"><span id="2Cast">key</span>&#176;F</td>
+                    <td class="tabledata"><img class="myImg" id="3Img" src="/lesson10/forecast.png" alt="weather forecast"><span id="3Cast">key</span>&#176;F</td>
+                    <td class="tabledata"><img class="myImg" id="4Img" src="/lesson10/forecast.png" alt="weather forecast"><span id="4Cast">key</span>&#176;F</td>
+                </tr>
+              </table>
+            </div>
+        </div>
                <!-- Article info here-->
                <div class="item2">
                <di class="article image">
@@ -77,37 +96,29 @@
                        <hr>
          </div>
         </div>
-                </div class="item3">
-                    <div class="info">
-                    <img src="/lesson5/real map.jpg" alt="Idaho map">
-                    <div class="container">
-                    <h3>Contact info</h3>
-                    <p>
-                        <b>Weather Atlas</b>
-                        City Of Preston
-                        <br>
-                        Preston, ID 83263
-                        </p>
-                    <p>
-                        &#9742;: (208) 852-1817
-                        <br>
-                        &#9993;: prestoncity@prestonidaho.net
-                        <br>
-                        </p>
-                        
-                        <br>
-                        <div class="socialmedia">
-                            <img class="socialmedia" src="/lesson5/facebook icon.png" alt="facebook icon"height="45" width="45" >
-                            <img class="socialmedia" src="/lesson5/pinterest icon.jpeg" alt="pinterest icon"height="45" width="45">
-                            <img class="socialmedia" src="/lesson5/Twitter Icon.png" alt="twitter icon"height="45" width="45">
-
-                         
-                       
-                    </div>
-                        
-                                
-                    
-                    </div>
+    </div class="item3">
+    <div class="info">
+        <img src="/lesson6/real map.jpg" alt="Idaho map">
+        <div class="container">
+            <h3 class="infoHeader">Contact info:</h3>
+            
+            <br>
+            <ul class="contact">
+                <li><strong>Weather Atlas</strong></li>
+                    <li>City Of Preston</li>
+                    <li>Preston, ID 83263</li>
+                <li>&#9742;: (208) 852-1817</li>
+                <li>&#9993;: prestoncity@prestonidaho.net</li>
+            </ul>
+                <br>
+                <div id="socialmedia">
+                    <img class="socialmedia" src="/lesson6/facebook icon.png" alt="facebook icon"height="45" width="45" >
+                    <img class="socialmedia" src="/lesson6/pinterest icon.jpeg" alt="pinterest icon"height="45" width="45">
+                    <img class="socialmedia" src="/lesson6/Twitter Icon.png" alt="twitter icon"height="45" width="45">
+                </div>
+        </div>
+    </div>
+</div>
 </main>
          <!--footerinfo here-->
     <footer>
@@ -117,6 +128,8 @@
          <span id="currentday"> </span> 
     </footer>
     <script type="text/javascript" src="/lesson5/mine.js"></script>
+    <script type="text/javascript" src="/lesson10/windchill.js"></script>
+    <script type="text/javascript" src="/lesson10/forecast.js"></script>
 </body>
 
 </html>
