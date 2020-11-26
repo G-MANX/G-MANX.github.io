@@ -1,4 +1,4 @@
-const oneday = dayNames[todaysdate.getDay() -1];
+const oneday = dayNames[todaysdate.getDay() + -1];
 const twoday = dayNames[todaysdate.getDay() + -5];
 const threeday = dayNames[todaysdate.getDay() + -4];
 const fourday = dayNames[todaysdate.getDay() + -3];
