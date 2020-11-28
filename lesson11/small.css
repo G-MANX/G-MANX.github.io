@@ -1,0 +1,361 @@
+body {
+    background-color: rgba(75, 133, 143, 0.479);
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block; 
+    flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+}
+
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #612222;
+    align-content: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 10px;
+}
+  .byline{ 
+      text-align: center;
+      line-height: 1.5em;
+}
+.image {
+    padding: 5px 10px 5px 0;
+    max-width: 100%;
+    height: 100px;
+}
+
+h1{
+    font-family: 'Adamani', serif;
+    font-size: 60px;
+    color:white;
+    grid-column:2/3;
+    grid-row:1/2;
+   
+}
+h2{
+    font-family: 'Noto', serif;
+    font-size: 200%;
+    color:#FAFAFA;
+    background-color: #f1f1f1;
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    background-color: #3b6aecf8;
+    padding: 0;
+}
+
+nav  ul {
+    margin-top: 1.5px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Adamina', serif;
+    padding: 20px;
+}
+
+.navigation a:hover {
+    color: rgba(204, 104, 104, 0.815);
+    background-color: #0aa89800;
+}
+
+.responsive li {
+    display: block;
+} 
+
+.beforefoot {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 500px 500px;
+}
+
+.heading, .motto {
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: end;
+    margin-bottom: 5px;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.weather {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+.summary {
+    /*display: flexbox;*/
+    /*position: absolute;*/
+    background-color: cornflowerblue;
+    height: 200px;
+    font-family: sans-serif;
+    padding:2px 10px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    z-index: 20;
+}
+
+.summary P{
+    font-family: 'Adamina', serif;
+    font-size: 20px;
+}
+.hero {
+    grid-column: 1;
+    grid-row: 1;
+}
+#heroImg {
+    width: 200%;
+}
+
+
+
+
+/*#heroimg {
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    grid-column: 1;
+    
+} */
+
+
+
+.summary p {
+    font-family: 'Noto Serif', serif;
+    font-size: 15px;
+
+}
+.dayforecast > h3 {
+    text-align: center;
+
+ }
+
+
+
+h2 {
+    margin-top: 10px;
+    color: #0f1c92;
+}
+
+
+.forecast img {
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 50px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #987abe02;
+  }
+
+.item1 {
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #22ceec;
+    padding-top: 10px;
+    display: center;
+}
+
+.item2 p {
+    font-size: 20px;
+    padding: 30px;
+}
+
+.item3 img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    z-index: 20;
+}
+.info img {
+    z-index: 20;
+}
+
+.info  {
+    display: flex;
+}
+
+.dv-item3  {
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #32659400;
+}
+
+.item3 .info{
+      text-align: right;
+}
+
+.infoHeader {
+    text-align: center;
+    font-size: 25px;
+}
+.container {
+    text-align: center;
+    width: 100%;
+    background-color: #96adad;
+    margin: 20px -10px;
+    padding: 10px 10px 20px 10px;
+    z-index: 0;
+    
+}
+
+.p{
+    color: black;
+}
+.contact {
+    list-style: none;
+}
+
+#socialmedia {
+    background-color: #96adad;
+    margin-left: 40%;
+    display: flex;
+    
+}
+
+
+.map img {
+    width: 80%;
+    box-shadow: 5px 5px 7px #9a8edd;
+}
+.cards img {
+    box-shadow: 10px 10px 5px 0px #46f012; 
+    opacity: 25px;
+    border-radius: 15px;
+    width: 250px;
+    padding: 0;
+  }
+  
+  .cards {
+    color: black;
+    font-size: .9em;
+    font-weight: bolder;
+    margin: auto 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2.5em;
+  }
+  .cards section {
+    background-color: #69bcf3ec;
+    text-align: center;
+    padding: 1em;
+    margin: auto;
+    font-weight: bold;
+    padding: 10px;
+  }
+  .cards p:nth-child(2){
+    font-family: Raleway, sans-serif;
+    font-style: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -15px;
+    margin-bottom: 30px;
+  }
+  .container1{
+      background-color: paleturquoise;
+      border-radius: 15px;
+      margin-top: 40px;
+      margin-bottom: 60px;
+      text-align: center;
+  }
+  .container1 h1{
+      font-style: 1.6em;
+      font-weight: bold;
+  }
+  h1{
+      text-align: center;
+      color: orangered;
+      font-size: 0%;
+  }
+  .townname {
+    text-align: center;
+  }
+  .towns {
+	display: flex;
+	flex-flow: column wrap;
+	margin-bottom: 10px
+  }
+  
+  .townPic {
+	max-width: 100%
+  }
+  
+  @media only screen and (min-width:32.5em) {
+	.gallerygrid {
+	  grid-template-columns: repeat(2, 1fr)
+	}
+  
+	.towns {
+	  display: grid;
+	  grid-template-areas: "left middle right";
+	  grid-column-gap: 10px
+	}
+  
+	#Preston {
+	  grid-area: left
+	}
+  
+	#SodaSprings {
+	  grid-area: middle
+	}
+  
+	#FishHaven {
+	  grid-area: right
+	}
+  
+footer {
+    background-color: #030405;
+    color: white;
+    text-align:center;
+    padding: 1%;
+    font-family: 'Avenir next', sans-serif;
+    font-size: 15px;
+}
+  }
+
