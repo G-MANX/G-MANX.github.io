@@ -22,23 +22,37 @@ header {
     max-width: 100%;
     display: flex;
     justify-content: space-evenly;
-    background-color: #4b1f14;
+    background-color: #1cdddd56;
     align-content: center;
     justify-content: center;
     margin: auto;
-    padding: 10px;
+    padding: 0%;
 }
   
+.cozey{
+    display: block;
+    margin-right: 0%;
+    width: 70%
+    
+    
+}
+
+
+.heroDiv{
+    margin-top: auto;
+    max-width: 100%;
+    margin: 90x auto;
+    padding: 50px;
+    position: relative
+    
+}
+
 #logo{
-    display: inherit;
-    position: relative;
-    padding: left 50px;
-    float: left;
-    height:20px;
-    width:10px;
-    margin-bottom: 60px;
-    margin-top: 10px;
-    height: 10px;
+
+    height:auto;
+    width:100%;
+    grid-column:1/2;
+    grid-row:1/2;
 }
 
 h1{
@@ -48,21 +62,26 @@ h1{
 
 h2{
     display: center;
+    text-align: center;
     font-family: 'Adamani', serif;
+    text-transform: uppercase;
     font-size: 60px;
-    color: blue;
-    
-   
-}
+     color: blue;
 
-.figcation{
-    color: blue;
 }
-
 
 P{
-    color:black;
+    text-align: center;
+    color:red;
+    padding: 1px;
 }
+
+#figcation{
+    color: blue;
+}
+
+
+
 
 #para{
     display: center;
@@ -121,16 +140,15 @@ nav  ul {
     grid-template-columns: 500px 500px;
 }
 
-.heading, .motto {
-    color: white;
-    grid-column: 2/3;
-    grid-row: 1/2;
-    align-self: end;
-    margin-bottom: 5px;
-}
+
 
 .menu {
     font-size: 20px;
+}
+
+.weather {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
 }
 
 .img{
@@ -150,18 +168,30 @@ nav  ul {
     margin-top: 15px;
     margin-bottom: 15px;
     border-radius: 10px;
-    text-align: left;
+    text-align: center;
     grid-column: 1;
     grid-row: 1;
     justify-self: start;
     z-index: 20;
 }
+.dayforecast > h3 {
+    text-align: center;
+
+ }
+
 
 .summary P{
     font-family: 'Adamina', serif;
     font-size: 20px;
 
 }
+
+
+#heroImg {
+    display: contents;
+    width: 200%;
+}
+
 
 details{
     padding-right: 12px;
@@ -193,6 +223,18 @@ details{
     border-radius: 10px;
     z-index: 20;
 }
+
+
+.forecast img {
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 50px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #987abe02;
+  }
+
 .info img {
     z-index: 20;
 }
@@ -211,6 +253,34 @@ details{
     text-align: center;
     font-size: 25px;
     margin-top: 30px;
+}
+
+.dayforecast > h3 {
+    text-align: center;
+    padding: 0%;
+ }
+
+
+.item1 img {
+    padding: 2px;
+}
+
+.forecast img {
+    margin: auto;
+    background-repeat: no-repeat;
+    height: 50px;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #987abe02;
+}
+
+.item1 {
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: #22ceec;
+    padding-top: 10px;
+    display: center;
 }
 
 
@@ -239,6 +309,8 @@ details{
     display: flex;
     
 }
+    
+
 
 
 

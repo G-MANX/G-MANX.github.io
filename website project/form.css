@@ -180,12 +180,6 @@ form label.top input::placeholder{
     border: #91235a solid 3px;
   }
 
-  .top{
-    color:green;
-    padding:50px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
 
 .submit{
     text-align: left;
