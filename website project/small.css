@@ -1,0 +1,202 @@
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+    display: flex;
+}
+.navigation li {
+    display: block; 
+    flex: 1 1 auto;
+}
+.navigation a {
+    text-align: center;
+}
+.navigation li:first-child {
+    display: none;
+}
+
+
+header {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #4b1f14;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
+  
+#logo{
+    display: inherit;
+    position: relative;
+    padding: left 50px;
+    float: left;
+    height:20px;
+    width:10px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    height: 10px;
+}
+
+h1{
+    color: white;
+  
+}
+
+h2{
+    display: center;
+    font-family: 'Adamani', serif;
+    font-size: 60px;
+    color: blue;
+    
+   
+}
+
+.figcation{
+    color: blue;
+}
+
+
+P{
+    color:black;
+}
+
+#para{
+    display: center;
+    color:red;
+
+}
+
+nav {
+    margin: 0 auto;
+    max-width: 100%;
+    position: relative;
+    background-color: #3b6aecf8;
+    padding: 0;
+}
+
+nav  ul {
+    margin-top: 1.5px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-family: 'Adamina', serif;
+    padding: 20px;
+}
+
+.navigation a:hover {
+    color: rgba(204, 104, 104, 0.815);
+    background-color: #0aa89800;
+}
+
+.responsive li {
+    display: block;
+} 
+
+.beforefoot {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 500px 500px;
+}
+
+.heading, .motto {
+    color: white;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: end;
+    margin-bottom: 5px;
+}
+
+.menu {
+    font-size: 20px;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.summary {
+    /*display: flexbox;*/
+    /*position: absolute;*/
+    background-color: cornflowerblue;
+    height: 200px;
+    font-family: sans-serif;
+    padding:40px 15px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    text-align: left;
+    grid-column: 1;
+    grid-row: 1;
+    justify-self: start;
+    z-index: 20;
+}
+
+.summary P{
+    font-family: 'Adamina', serif;
+    font-size: 20px;
+
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 0%;
+    margin-top: 0%;
+}
+
+
+
+
+
+
+#socialmedia {
+    background-color:none;
+    margin-left: 40%;
+    padding-left: 30px;
+    display: flex;
+    
+}
+
+
+
+footer {
+    background-color: #030405;
+    color: white;
+    text-align:center;
+    padding: 1%;
+    font-family: 'Avenir next', sans-serif;
+    font-size: 15px;
+}
+
+/*----- Clearfix: Force an Element not to collapse -----*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }

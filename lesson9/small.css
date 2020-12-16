@@ -41,7 +41,7 @@ header {
 h1{
     font-family: 'Adamani', serif;
     font-size: 60px;
-    color:white;
+    color:red;
     grid-column:2/3;
     grid-row:1/2;
    
