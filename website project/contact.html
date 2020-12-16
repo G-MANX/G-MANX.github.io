@@ -7,8 +7,9 @@
     <meta name="description" content="Website Project">
 
 <!-- STYLE SHEETS -->
-    <link rel="stylesheet" href="/website project/small.css">
-   
+<link rel="stylesheet" href="/website project/small.css">
+<link rel="stylesheet" href="/website project/form.css">
+    
 
     <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -17,16 +18,8 @@
 </head>
 <body>
 <header>
-<img src="/website project/Web 1920 – 1.png" alt=" logo of a a Sun">
-  <h1>Island of Cozumel</h1>
-  <div class="weather">
-    <div class="summary">
-        <h3>Weather Summary</h3>
-        <p>Currently: Sunny High:65F</p>
-        <p>Wind Chilli: F</p>
-        <p> Humidity: 52%</p>
-        <p>Wind Speed: 11mph</p>
-        </div>
+<img src="/website project/Web 1920 – 1.png" alt=" logo ">
+<h1>Island of Cozumel</h1>
 
 </header>
   
@@ -40,53 +33,52 @@
   <li><a href="/website project/Reservation.html">Reservation</a></li>
   <li class="active"><a href="/website project/Tour.html">Tour</a></li>
   <li><a href="/website project/Rental.html">Rentals</a></li>
-  <li><a href="/website project/contact.html">Contact Us</a></li>
+  <li><a href="/website project/contact.hmtl">Contact Us</a></li>
 </ul>
 
 </nav>
 <section>
 <main>
     
-  <h2>Overview</h2>
+  <h1>Contact details</h1>
+    <fieldset>
+<legend>contact details</legend>
+<label>Email:<br/>
+<input type="text" name="email" /></label>
+<label>Mobile:<br/>
+<input type="text" name="mobile" /></label>
+<label>Telephone:<br />
+<input type="text"  name="telephone"/></label>
+</fieldset>
 
- 
-  <p id="Para">
-   Our Private guides utilize personal protection equipment to ensure safety. 
-   Our private tours heWe will make sure our tour is the Highlight of your vacation to Cozumel.
-  </p>
-  
-  <div class="container1">
+   <fieldset>
+    <label class="top" for="msg">Message:</label>
+    <textarea id="msg" name="user_message"></textarea>
+        
+     <input type = "button" id="submit" value="Submit">
+    <p id="notation">*Required field</p>
+    </label>
+</fieldset>     
 
-  <figure>
-  <img src="/website project/Overview.jpeg" alt="Cozumel Isalnd">
-      <figcaption>Beautiful Beach</figcaption>
-  </figure>
+</fieldset>
 
-  <figure>
-  <img src="/website project/download (1).jpeg" alt="Cozumel Isalnd">
-      <figcaption>Private Dune Buggy Tour</figcaption>
-  </figure>
+    
+</div>
 
-
-  <figure>
-    <img src="/website project/download (2).jpeg" alt="Cozumel Isalnd">
-        <figcaption>All-Inclusive Resort Day Pass</figcaption>
-    </figure>
-
-    <figure>
-      <img src="/website project/Honda PIoneer.jpeg" alt="Cozumel Isalnd">
-          <figcaption>All-Inclusive Resort Day Pass</figcaption>
-      </figure>
-
-      <figure>
-        <img src="/website project/Honda scooter.jpeg" alt="Cozumel Isalnd">
-            <figcaption>Cozumel ATV Snorkel Tour</figcaption>
-        </figure>
-
-      <figure>
-        <img src="/website project/Jeep Wrangler.jpeg" alt="Cozumel Isalnd">
-            <figcaption>Private Cozumel Jeep Tour</figcaption>
-        </figure>
+</div class="item3">
+    <div class="info">
+        <img src="/website project/google.jpg" alt=" map">
+        <div class="container">
+            <h3 class="infoHeader">Contact info:</h3>
+            
+            <br>
+            <ul class="contact">
+                <li><strong>Weather Atlas</strong></li>
+                    <li>City Of Preston</li>
+                    <li>Preston, ID 83263</li>
+                <li>&#9742;: (208) 852-1817</li>
+                <li>&#9993;: prestoncity@prestonidaho.net</li>
+            </ul>
 
                   <br>
                   <div id="socialmedia">
@@ -108,6 +100,7 @@
       <script type="text/javascript" src="/website project/days.js"></script>
       <script type="text/javascript" src="/website project/chill.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+      <script src="/website project/form.js"></script>
   </body>
   
   </html>

@@ -46,29 +46,9 @@ h1{
   
 }
 
-h2{
-    display: center;
-    font-family: 'Adamani', serif;
-    font-size: 60px;
-    color: blue;
-    
-   
-}
-
-.figcation{
-    color: blue;
-}
 
 
-P{
-    color:black;
-}
 
-#para{
-    display: center;
-    color:red;
-
-}
 
 nav {
     margin: 0 auto;
@@ -133,10 +113,7 @@ nav  ul {
     font-size: 20px;
 }
 
-.img{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
+
 
 
 .summary {
@@ -163,74 +140,80 @@ nav  ul {
 
 }
 
-details{
-    padding-right: 12px;
-	border:1px solid #ddd;
-   border-radius:3px; box-shadow:inset 0 0 5px rgba(0,0,0,.1);
 
+
+/*---------form-------*/
+
+form legend {
+    color: none;
+  
+}
+
+form label.top,
+form div {
+    background-color: khaki;
+    display: block;
+    padding-top: 20px;
+    color: #bd3eb2;
+    font-size: 13px;
+  
+
+}
+#submit{
+    width:90px;
+}
+textarea{
+    background-color: rgb(249, 252, 253);
+    width:150px;
+    height:100px;
+}
+label{
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#Rental{
+    display:none;
 }
 
 
-.list-2 li{
-    display: grid;
-    text-align: -webkit-match-parent;
-    padding: 13px 0 11px 41px;
-    font-size: 15px;
-    color: #333333;
+form label.top input::placeholder{
+    border: #91235a solid 3px;
+  }
+
+  .top{
+    color:green;
+    padding:50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+.submit{
+    text-align: left;
 }
 
 
-.container1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 0%;
-    margin-top: 0%;
+
+
+
+#notation{
+    font-size:10px;
 }
 
-.item3 img {
-    width: 80%;
-    height: auto;
-    border-radius: 10px;
-    z-index: 20;
-}
-.info img {
-    z-index: 20;
+#thankyou{
+    text-align:center;
+    color:  #edf0f3;
+    text-shadow:none;
 }
 
-.info  {
-    display: flex;
-   
-}
-
-.contact {
-    list-style: none;
-
-}
-
-.infoHeader {
-    text-align: center;
-    font-size: 25px;
-    margin-top: 30px;
-}
+    
+  
+    form{
+        padding-right: 60%;
+    }
 
 
-.dv-item3  {
-    border-radius: 10px 10px 0px 0px;
-    margin-top: 20px;
-    padding: 10px;
-    background-color: #32659400;
-}
-
-.item3 .info{
-      text-align: right;
-}
 
 
-.map img {
-    width: 10%;
-    box-shadow: 5px 5px  #9a8edd;
-
-}
 
 #socialmedia {
     background-color:none;

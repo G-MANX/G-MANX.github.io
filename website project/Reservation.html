@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+    <title>Scoots</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website Project">
+
+<!-- STYLE SHEETS -->
+<link rel="stylesheet" href="/website project/small.css">
+<link rel="stylesheet" href="/website project/form.css">
+    
+
+    <!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     
+</head>
+<body>
+<header>
+<img src="/website project/Web 1920 – 1.png" alt=" logo of a a Sun">
+  <h1>Island of Cozumel</h1>
+
+
+    </header>
+
+    <nav class="clearfix">
+
+
+
+        <ul class="navigation">
+        <li><a class="menu" href="#">&#9776; Menu</a></li> 
+        <li><a href="/website project/Home.html">Home</a></li>
+        <li><a href="/website project/Reservation.html">Reservation</a></li>
+        <li class="active"><a href="/website project/Tour.html">Tour</a></li>
+        <li><a href="/website project/Rental.html">Rentals</a></li>
+        <li><a href="/website project/contact.hmtl">Contact Us</a></li>
+      </ul>
+      
+      </nav>
+      <main>
+   <!--contactfo here-->
+   <main>
+    <h1>Cozumel Cruise Excursion Contact Form</h1>
+
+    <form method="get" action="thanks.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label class="top">*Full Name:
+                <input type="text" name="fullname" required pattern="[A-z\s]{5,}" placeholder="Full Name"></label>
+
+            <label class="top">Email:
+                <input type="email" name="email" placeholder="user@gmail.com"></label>
+
+            <label class="top">*Phone number:
+                <input type="tel" name="phonenumber" required></label>
+
+            <label class="top" for="num">*Zip Code:
+                <input type="number" id="num" name="zipcode" required></label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Rental Info</legend>
+
+            <label class="top">Tour Date:
+                <input type="date" name="date"></label>
+
+            <label class="top">Rental:
+                <input type="text" name="other" list="other">
+                <datalist id="other">
+                    <option value="Hotel">
+                    <option value="Vacation Rentals">
+                    <option value="Day Trip from ferry">
+                    <option value="Beach walk">
+                    <option value="Resort">
+                </datalist>
+            </label>
+
+            <br>
+
+            <label class="mid">Tour Areas: &nbsp;&nbsp;&nbsp;
+                <input type="range" name="Areas" id="rating" value="5" min="1" max="10" step="1" list="tickmarks"
+                    oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+                <span id="ratingvalue">5</span>
+            </label>
+
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="6"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+
+            <label class="top">Tour Attraction:
+                <select name="tourattraction">
+                    <option value="">Select Tour</option>
+                    <option value="3 Reef snorkel Tour">Snorkel Tour</option>
+                    <option value="Private Jeep Tour">Jeep Tour</option>
+                    <option value="Bar Hop Tour">Bar Tour</option>
+                </select>
+            </label>
+
+            
+        </fieldset>
+
+        <fieldset>
+            <label class="top" for="msg">Message:</label>
+            <textarea id="msg" name="user_message"></textarea>
+                
+                 <input type = "button" id="submit" value="Submit">
+                <p id="notation">*Required field</p>
+            </label>
+        </fieldset>
+
+        <input type="submit" name="button" value="Submit Report" class="button">
+    </form>
+
+</main>
+
+       
+                   
+               <!--footerinfo here-->
+          <footer>
+              <div class=footerInfo></div>
+              &copy; <span id="copyright"></span> | Weather Atlass | Attributions | Nelson Azumah
+          </div>
+               <span id="currentday"> </span> 
+          </footer>
+          <script type="text/javascript" src="/lesson6/mine.js"></script>
+          <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.16/webfont.js"></script>
+        
+           <script src="/website project/form.js"></script>
