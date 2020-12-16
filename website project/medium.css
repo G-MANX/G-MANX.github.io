@@ -1,45 +1,6 @@
-@media only screen and (min-width: 730px){
-    .navBar li:first-child {
-        display: none;
+/* tablet view*/
+@media only screen and (min-width: 37.5em) {
+    .grid-container {
+      grid-template-columns: auto auto;
     }
-    header{
-        grid-template-columns: 24% 1fr;
-        grid-template-rows:150px;
     }
-    #logo{
-        width:75%;
-    }
-    h1{
-        font-size: 400%;
-    }
-    .navBar li{
-        display:block;
-    }
-    
-    ul{
-        display:flex; 
-        align-items: center;
-    }
-    li{
-        text-align:center;   
-    }
-    
-    footer{
-        width: 80%;
-        margin: 1em 10%;
-    }
-    
-    #mappic{
-        max-width:50%;
-        margin-right: 20px;
-    }
-    #mapImg{
-        display:block;
-        max-width:100%;
-        margin-left:10px;
-    }
-    .map{
-        display:flex;
-        align-items:center;
-    }
-}

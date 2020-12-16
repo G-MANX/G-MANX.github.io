@@ -1,0 +1,7 @@
+  /* Desktop view*/
+  @media only screen and (min-width: 60em) {
+    .grid-container {
+      grid-template-columns: auto auto auto;
+    }
+  }
+  
